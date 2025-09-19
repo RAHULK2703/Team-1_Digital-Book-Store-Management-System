@@ -132,3 +132,78 @@
 16:27:20.471 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 16:27:20.471 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 16:27:20.471 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+17:15:37.913 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+17:15:38.001 INFO  [main] c.l.project.ProjectApplication - Starting ProjectApplication using Java 21 with PID 28324 (C:\Users\2440572\OneDrive - Cognizant\Documents\Team-1_Digital-Book-Store-Management-System-main\target\classes started by 2440572 in C:\Users\2440572\OneDrive - Cognizant\Documents\Team-1_Digital-Book-Store-Management-System-main)
+17:15:38.001 DEBUG [main] c.l.project.ProjectApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+17:15:38.003 INFO  [main] c.l.project.ProjectApplication - No active profile set, falling back to 1 default profile: "default"
+17:15:39.833 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:15:40.059 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 210 ms. Found 12 JPA repository interfaces.
+17:15:41.632 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+17:15:41.652 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:15:41.655 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:15:41.655 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+17:15:41.769 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:15:41.769 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3692 ms
+17:15:42.277 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:15:43.211 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1be3f8f8
+17:15:43.217 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:15:43.532 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:15:43.791 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+17:15:43.909 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+17:15:44.710 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+17:15:47.165 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17:15:47.430 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:15:48.443 DEBUG [main] c.l.project.JwtRequestFilter - Filter 'jwtRequestFilter' configured for use
+17:15:48.742 INFO  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
+17:15:49.084 INFO  [main] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+17:15:50.743 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:15:51.869 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+17:15:53.288 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:15:53.319 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+17:15:53.345 INFO  [main] c.l.project.ProjectApplication - Started ProjectApplication in 16.529 seconds (process running for 17.421)
+17:16:40.550 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:16:40.552 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:16:40.553 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:17:22.788 WARN  [http-nio-8080-exec-4] o.s.h.c.j.MappingJackson2HttpMessageConverter - Failed to evaluate Jackson deserialization for type [[simple type, class com.libraryManagement.project.entity.User]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+17:17:22.799 WARN  [http-nio-8080-exec-4] o.s.h.c.j.MappingJackson2HttpMessageConverter - Failed to evaluate Jackson deserialization for type [[simple type, class com.libraryManagement.project.entity.User]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+17:18:45.407 WARN  [http-nio-8080-exec-6] o.s.h.c.j.MappingJackson2HttpMessageConverter - Failed to evaluate Jackson deserialization for type [[simple type, class com.libraryManagement.project.entity.User]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+17:18:45.412 WARN  [http-nio-8080-exec-6] o.s.h.c.j.MappingJackson2HttpMessageConverter - Failed to evaluate Jackson deserialization for type [[simple type, class com.libraryManagement.project.entity.User]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+17:18:52.786 WARN  [http-nio-8080-exec-7] o.s.h.c.j.MappingJackson2HttpMessageConverter - Failed to evaluate Jackson deserialization for type [[simple type, class com.libraryManagement.project.entity.User]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+17:18:52.791 WARN  [http-nio-8080-exec-7] o.s.h.c.j.MappingJackson2HttpMessageConverter - Failed to evaluate Jackson deserialization for type [[simple type, class com.libraryManagement.project.entity.User]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+17:20:26.290 WARN  [http-nio-8080-exec-9] o.s.h.c.j.MappingJackson2HttpMessageConverter - Failed to evaluate Jackson deserialization for type [[simple type, class com.libraryManagement.project.entity.User]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+17:20:26.297 WARN  [http-nio-8080-exec-9] o.s.h.c.j.MappingJackson2HttpMessageConverter - Failed to evaluate Jackson deserialization for type [[simple type, class com.libraryManagement.project.entity.User]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+17:22:21.092 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:22:21.096 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:22:21.108 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:22:32.261 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+17:22:32.321 INFO  [main] c.l.project.ProjectApplication - Starting ProjectApplication using Java 21 with PID 4884 (C:\Users\2440572\OneDrive - Cognizant\Documents\Team-1_Digital-Book-Store-Management-System-main\target\classes started by 2440572 in C:\Users\2440572\OneDrive - Cognizant\Documents\Team-1_Digital-Book-Store-Management-System-main)
+17:22:32.322 DEBUG [main] c.l.project.ProjectApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+17:22:32.322 INFO  [main] c.l.project.ProjectApplication - No active profile set, falling back to 1 default profile: "default"
+17:22:33.998 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:22:34.148 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 140 ms. Found 12 JPA repository interfaces.
+17:22:35.549 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+17:22:35.565 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:22:35.568 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:22:35.568 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+17:22:35.684 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:22:35.685 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3295 ms
+17:22:36.074 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:22:36.604 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5341641d
+17:22:36.608 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:22:36.766 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:22:36.908 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+17:22:36.989 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+17:22:37.526 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+17:22:38.996 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17:22:39.174 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:22:39.748 DEBUG [main] c.l.project.JwtRequestFilter - Filter 'jwtRequestFilter' configured for use
+17:22:39.884 INFO  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
+17:22:40.091 INFO  [main] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+17:22:41.105 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:22:41.769 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+17:22:42.673 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:22:42.700 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+17:22:42.722 INFO  [main] c.l.project.ProjectApplication - Started ProjectApplication in 11.292 seconds (process running for 12.222)
+17:22:52.423 INFO  [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:22:52.425 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:22:52.427 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
